@@ -1,0 +1,64 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]--> <!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]--> <!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]--> <!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title></title>
+
+
+ <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+ 
+  <meta name="apple-mobile-web-app-capable" content="yes" /> 
+  <meta names="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  	 
+	<link rel="stylesheet" href="wordsearch.css">
+
+  	 <script type="text/javascript" src="lib/jquery.js"></script> 
+	 <script type="text/javascript" src="lib/jquery.mobile.js"></script> 
+	 <script type="text/javascript" src="puzzle.js"></script> 
+	 <script type="text/javascript" src="wordsearch.min.js"></script>
+	
+</head>
+<body>
+   
+	<div id="instructions"></div>
+
+
+	<div id="toolbar">
+		<div id="solveBtn" class="tbutton">Solve</div>
+		<div id="hintBtn" class="tbutton">Hint</div>
+		<div id="clearBtn" class="tbutton"></div>
+		<div id="timer"></div>
+	</div>
+
+	<div id="clues"></div>
+	 
+	<div id="center">
+		<div id="puzzle">
+			<canvas id="puzzleCanvas"></canvas>
+		</div>
+	</div>
+	 
+	
+	<div id="notify">
+		</div>
+
+
+
+	
+	<noscript>
+            <div id="container" style="position:absolute;top:55%;left:50%;">
+                <div style="width: 440px; padding: 10px 25px 20px 25px; font-family: sans-serif; background-color: #ffffff; position: relative; left: -245px; top: -120px; text-align: center; -moz-border-radius: 20px; -webkit-border-radius: 20px; color: #555555">
+                    <p style="line-height: 1.6em;font-size:16px;">JavaScript is required for this site to work correctly but is either disabled or not supported by your browser.</p>
+                     
+                </div>
+            </div>
+        </noscript>
+	 
+	 
+</body>
+
+
+</html>

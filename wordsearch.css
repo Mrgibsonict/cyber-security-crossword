@@ -1,0 +1,256 @@
+html,body
+{
+	margin:0;
+	font:normal 14px tahoma,Arial,sans-serif;
+	overflow:hidden;
+}
+
+div 
+{
+	-webkit-touch-callout:none;
+	-webkit-user-select:none;
+	-khtml-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	
+}
+
+#instructions
+{
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	margin:auto;
+	width:400px;
+	border:2px solid #3f3f3f;
+	padding:10px;
+	display:none;
+	background:#fff;
+	z-index:999;
+	height:200px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+
+.ui-loader { display: none; }
+
+
+#toolbar
+{
+	width: 100%;
+	height:50px; 
+	background: #f0f0f0;
+	background: -moz-linear-gradient(
+		top,
+		#ffffff,
+		#f0f0f0);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#ffffff), 
+		to(#f0f0f0));
+
+
+	background: -o-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+	
+	border-bottom:1px solid #b0b0b0;
+}
+
+#timer
+{
+	float:right;
+	margin:16px 16px 0px;
+}
+
+.tbutton
+{
+	background:#ffffff;
+	border:1px solid #c0c0c0;
+	padding:8px 14px 8px 14px;
+	margin:8px 0px 0px 10px;
+	float:left;
+	cursor:default;
+}
+
+.tbutton:active
+{
+	 
+	background-color:#e0e0e0;
+}
+
+
+#clearBtn
+{
+	width:10px;
+	height:16px;
+	background-color:#fff;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+#clearBtn:active
+{
+	background-color:#e0e0e0;
+}
+#clues 
+{
+	position:absolute;
+	width:300px; 
+	bottom:0px;
+	right:0px;
+	top:51px;
+	background:#fff; 
+	border-left:1px solid #b0b0b0;
+}
+
+
+#center
+{
+	position:absolute;
+	top:51px;
+	left:0px;
+	right:301px;
+	bottom:0px;
+	background:#fafafa;
+	border:none;
+	overflow:auto;
+}
+
+ 
+#puzzle
+{
+	margin:5px auto;
+	position: absolute;
+	top: 5%; left: 0; bottom: 0; right: 0;
+	background:transparent;
+	border:none;
+}
+
+#keyboardWidget
+{
+	position:absolute;
+	overflow:hidden;
+	display:block;
+}
+
+#keyboard
+{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	right:301px;
+	height:225px;
+	background:#e8e8e8;
+	border:none;
+	display:block;
+	display:none;
+}
+
+#clues
+{
+	overflow:auto;
+}
+
+#cluesTable
+{
+	width:100%;
+	
+}
+
+.clue
+{
+	border-bottom:1px solid #e0e0e0;
+	padding:5px;	
+}
+
+tr
+{
+	cursor:default;
+}
+
+.clueRow.selected
+{
+	background: #3875d7;
+	color:white;
+}
+
+.cluesHeader
+{
+	font:bold 20px tahoma,Arial,sans-serif;
+	text-align:center;
+	width:100%;
+	padding:5px ;
+	border-bottom:1px solid #e0e0e0;
+	
+}
+
+
+#notify 
+{
+		-moz-border-radius:8px; 
+		-webkit-border-radius:8px; 
+		border-radius:8px; 
+
+		font: 16px normal Arial,sans-serif;
+		padding:10px !important;
+		right:10px;
+		bottom:20px;
+		position:fixed;
+		width:350px; 
+		height:auto;
+		background:yellow;
+		z-index:1500;
+		min-height:40px;
+
+		background:#FFFFCC; 
+		background:rgba(255, 255, 153,0.95); 
+		-moz-box-shadow: 0 0 6px #000; 
+		-webkit-box-shadow: 0 0 6px #000; 
+		box-shadow: 0 0 6px #000;
+		display:none;
+}
+
+#textInput
+{
+	position:absolute;
+	top:51px;
+	left:0px;
+	right:301px;
+	height:40px;
+	background:#d0d0d0; 
+	z-index:1000;
+	display:none;
+}
+
+#inputText
+{
+ 	position:absolute;
+	left:10px;
+	top:5px;
+	right:110px;
+	height:20px;
+	
+}
+
+.inputbtn
+{
+	float:right;
+	width:80px;
+ 	margin:3px 10px 3px 0;
+	background:#ffffff;
+	border:1px solid #c0c0c0;
+	padding:5px;
+	text-align:center;
+	cursor:default;
+}
+
+.inputbtn:active 
+{
+	background:#e0e0e0;
+}
+
+
